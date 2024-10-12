@@ -1,0 +1,193 @@
+body {
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Palanquin Dark", sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    padding-bottom: 35px;
+    background-color: #fff;
+    border-radius: 24px;
+    position: relative;
+  }
+  
+  .box {
+    position: relative;
+  }
+  
+  img {
+    width: 100%;
+    height: 440px;
+    border-radius: 24px;
+    object-fit: cover;
+  }
+  
+  .boxicon1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: black;
+  }
+  
+  .boxicon2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: #ff1c7b;
+    cursor: pointer;
+  }
+  
+  .boxicon1 {
+    top: 10px;
+    left: 15px;
+  }
+  
+  .boxicon2 {
+    top: 10px;
+    right: 15px;
+  }
+  
+  .left-side-group .group1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+  }
+  
+  .left-side-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .group1 svg {
+    width: 22px;
+    height: 24px;
+  }
+  
+  .left-top {
+    font-size: 26px;
+  }
+  
+  .left-top2 {
+    font-size: 16px;
+    color: #bfc1c4;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .group2 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding-top: 18px;
+    gap: 5px;
+  }
+  .group2 svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .group2 svg path {
+    fill: #ff1c7b;
+  }
+  
+  .figure1 {
+    background-color: #bfc1c4;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .figure2 {
+    background-color: #bfc1c4;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .figure3 {
+    background-color: #bfc1c4;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .midgroup {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+    margin-top: 18px;
+  }
+  
+  .text1-1 {
+    color: #6c6a6a;
+  }
+  
+  .biggroup {
+    font-weight: 100; /* Makes the entire text thicker */
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #06172c;
+  }
+  
+  .see-more {
+    color: red; /* Makes "SEE MORE" red */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+  }
+  
+  
+  .see-more:hover {
+    text-decoration: none; /* Optional: Adds underline on hover */
+  }
+  
+  .bot-group {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+    margin-top: 25px;
+  }
+  
+  .left-group {
+    width: 115px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ebedef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .left-group svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .right-group {
+    width: 240px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ff1c7b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+  
+  .right-group-text {
+    color: #fff;
+  }
+  
+  .right-group svg {
+    width: 15px;
+    height: 15px;
+    fill: #fff;
+  }
